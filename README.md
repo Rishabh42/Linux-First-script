@@ -1,6 +1,3 @@
-# Linux first script
-Scipt to install essential software after a fresh install of Linux.
-
 ## Steps To Run
 ```
 chmod +x script.sh
