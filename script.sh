@@ -8,6 +8,7 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo sh -c "echo 'AutoEnable=true' >> /etc/bluetooth/main.conf"
 sudo add-apt-repository ppa:webupd8team/atom
+wget -c https://zoom.us/client/latest/zoom_amd64.deb
 
 
 sudo apt-get update
@@ -24,6 +25,9 @@ sudo apt-get install vlc
 sudo apt-get install redshift redshift-gtk
 sudo apt install atom
 sudo apt install gdebi-core
+sudo apt install snapd
+sudo snap install slack --classic
+sudo dpkg -i zoom_amd64.deb
 
 npm install -g truffle
 npm install -g ganache-cli
