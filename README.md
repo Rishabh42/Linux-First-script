@@ -16,3 +16,7 @@ sudo ./script.sh
 10. Gdebi
 11. Truffle
 12. Ganache-cli
+13. Bluetooth configuration
+14. Slack
+15. Snap
+16. Zoom meeting
