@@ -20,3 +20,4 @@ sudo ./script.sh
 14. Slack
 15. Snap
 16. Zoom meeting
+17. Brave browser
