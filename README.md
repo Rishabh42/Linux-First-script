@@ -21,3 +21,4 @@ sudo ./script.sh
 15. Snap
 16. Zoom meeting
 17. Brave browser
+18. KVM
