@@ -28,6 +28,7 @@ sudo apt-get install redshift redshift-gtk
 sudo apt install atom
 sudo apt install gdebi-core
 sudo apt install snapd
+sudo apt install hexchat
 sudo snap install slack --classic
 sudo dpkg -i zoom_amd64.deb
 sudo apt install brave-browser brave-keyring
