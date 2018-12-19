@@ -22,3 +22,4 @@ sudo ./script.sh
 16. Zoom meeting
 17. Brave browser
 18. KVM
+19. qBittorrent
