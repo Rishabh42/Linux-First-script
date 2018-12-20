@@ -8,7 +8,7 @@ sudo ./script.sh
 2.  Google Chrome
 3.  NodeJs & npm
 4.  Arc theme and icons
-5.  Deluge
+5.  Deluge BitTorrent Client
 6.  Spotify
 7.  VLC media player
 8.  Redshift
@@ -22,3 +22,12 @@ sudo ./script.sh
 16. Zoom meeting
 17. Brave browser
 18. KVM
+
+## For suggestions
+Please open an issue with the name of the package which you would want to be added to the script.
+
+## Contributing
+1. Fork this repo and clone it.
+2. Add the command/s to install the desired package to `script.sh` file and make sure that it compiles.
+3. Update the `README.md` with the name of the package.
+4. Open a pull request with your commit.
