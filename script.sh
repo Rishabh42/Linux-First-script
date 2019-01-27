@@ -33,6 +33,7 @@ sudo snap install slack --classic
 sudo dpkg -i zoom_amd64.deb
 sudo apt install brave-browser brave-keyring
 sudo apt install qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager
+sudo apt-get install autoconf
 
 npm install -g truffle
 npm install -g ganache-cli
