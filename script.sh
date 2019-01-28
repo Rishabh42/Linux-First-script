@@ -1,4 +1,5 @@
 sudo apt install curl
+gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true  #tap to click
 
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
@@ -10,9 +11,6 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 sudo sh -c "echo 'AutoEnable=true' >> /etc/bluetooth/main.conf"
 sudo add-apt-repository ppa:webupd8team/atom
 wget -c https://zoom.us/client/latest/zoom_amd64.deb
-curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key add -
-echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ `lsb_release -sc` main" | sudo tee /etc/apt/sources.list.d/brave-browser-release-`lsb_release -sc`.list
-
 
 sudo apt-get update
 
@@ -32,9 +30,9 @@ sudo apt install snapd
 sudo apt install hexchat
 sudo snap install slack --classic
 sudo dpkg -i zoom_amd64.deb
-sudo apt install brave-browser brave-keyring
 sudo apt install qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager
 sudo apt-get install autoconf
+sudo snap install brave
 
 npm install -g truffle
 npm install -g ganache-cli
