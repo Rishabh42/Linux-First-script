@@ -14,25 +14,10 @@ wget -c https://zoom.us/client/latest/zoom_amd64.deb
 
 sudo apt-get update
 
-sudo apt-get install google-chrome-stable
-sudo apt-get install git
-sudo apt install nodejs-legacy
-sudo apt install npm
-sudo apt-get install arc-theme
-sudo apt-get install arc-icons
-sudo apt install deluge
-sudo apt-get install spotify-client
-sudo apt-get install vlc
-sudo apt-get install redshift redshift-gtk
-sudo apt install atom
-sudo apt install gdebi-core
-sudo apt install snapd
-sudo apt install hexchat
-sudo snap install slack --classic
+sudo apt-get install google-chrome-stable git nodejs npm arc-theme arc-icons deluge spotify-client vlc redshift redshift-gtk atom gdebi-core snapd hexchat qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager autoconf 
+
+sudo snap install slack --classic brave
 sudo dpkg -i zoom_amd64.deb
-sudo apt install qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager
-sudo apt-get install autoconf
-sudo snap install brave
 
 npm install -g truffle
 npm install -g ganache-cli
