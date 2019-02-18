@@ -15,9 +15,9 @@ wget -c https://zoom.us/client/latest/zoom_amd64.deb
 
 sudo apt-get update
 
-sudo apt-get install google-chrome-stable git nodejs npm arc-theme arc-icons deluge spotify-client vlc atom gdebi-core snapd hexchat qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager autoconf linuxbrew-wrapper tlpui
+sudo apt-get install google-chrome-stable git nodejs npm arc-theme arc-icons deluge spotify-client vlc atom gdebi-core snapd hexchat qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager autoconf linuxbrew-wrapper tlpui  gnome-clocks
 
-sudo snap install slack --classic brave
+sudo snap install slack --classic brave telegram-desktop
 sudo dpkg -i zoom_amd64.deb
 
 npm install -g truffle
