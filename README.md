@@ -23,6 +23,8 @@ sudo ./script.sh
 17. Brave browser
 18. KVM
 19. autoconf
+20. Telegram
+21. Gnome-clocks
 
 ## For suggestions
 Please open an issue with the name of the package which you would want to be added to the script.
