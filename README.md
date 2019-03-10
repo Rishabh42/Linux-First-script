@@ -25,6 +25,8 @@ sudo ./script.sh
 19. autoconf
 20. Telegram
 21. Gnome-clocks
+22. Linux Brew
+23. tlpui
 
 ## For suggestions
 Please open an issue with the name of the package which you would want to be added to the script.
