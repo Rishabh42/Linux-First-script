@@ -12,10 +12,12 @@ sudo sh -c "echo 'AutoEnable=true' >> /etc/bluetooth/main.conf"
 sudo add-apt-repository ppa:webupd8team/atom
 sudo add-apt-repository ppa:linuxuprising/apps
 wget -c https://zoom.us/client/latest/zoom_amd64.deb
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 sudo apt-get update
 
-sudo apt-get install google-chrome-stable git nodejs npm arc-theme arc-icons deluge spotify-client vlc atom gdebi-core snapd hexchat qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager autoconf linuxbrew-wrapper tlpui  gnome-clocks powertop -y
+sudo apt-get install google-chrome-stable git arc-theme arc-icons deluge spotify-client vlc atom gdebi-core snapd hexchat qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager autoconf linuxbrew-wrapper tlpui  gnome-clocks powertop -y
+sudo apt-get install -y nodejs 
 
 sudo snap install slack --classic brave telegram-desktop
 sudo dpkg -i zoom_amd64.deb
