@@ -18,6 +18,7 @@ sudo apt-get update
 
 sudo apt-get install google-chrome-stable git arc-theme arc-icons deluge spotify-client vlc atom gdebi-core snapd hexchat qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager autoconf linuxbrew-wrapper tlpui  gnome-clocks powertop -y
 sudo apt-get install -y nodejs 
+sudo snap install --classic code
 
 sudo snap install slack --classic brave telegram-desktop
 sudo dpkg -i zoom_amd64.deb
