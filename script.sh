@@ -9,6 +9,7 @@ sudo add-apt-repository ppa:deluge-team/ppa
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo sh -c "echo 'AutoEnable=true' >> /etc/bluetooth/main.conf"
+sudo sh -c "echo 'ControllerMode=dual' >> /etc/bluetooth/main.conf"
 sudo add-apt-repository ppa:webupd8team/atom
 sudo add-apt-repository ppa:linuxuprising/apps
 wget -c https://zoom.us/client/latest/zoom_amd64.deb
