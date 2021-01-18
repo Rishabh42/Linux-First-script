@@ -28,6 +28,18 @@ sudo ./script.sh
 22. Linux Brew
 23. tlpui
 
+## Xcode fix:  
+```
+xcode-select --print-path
+# in my case /Library/Developer/CommandLineTools
+
+# the next line deletes the path returned by the command above
+sudo rm -rf $(xcode-select --print-path)
+
+# install them (again) if you don't get a default installation prompt
+xcode-select --install
+```
+
 ## For suggestions
 Please open an issue with the name of the package which you would want to be added to the script.
 
